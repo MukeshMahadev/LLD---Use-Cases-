@@ -1,0 +1,28 @@
+Make an app like Zomato
+
+Functional Req:
+1. User should be able to order food from the app.
+2. Restaurants should be able to register with App
+3. User should be able to get the status of the delivery of the order
+
+
+
+What can be the one happy flow that driver code can demonstrate ?
+	1. Create a user
+	2. Add a delivery partner
+	3. Create a restaurant
+	4. Create a dish
+	5. Create menu
+	5. Add dish to menu
+	6. Add menu to restaurant
+	7. Register the restaurant with the app
+	8. Get the order from the user. (order_id, restaurant, items_list)
+	9. Restaurant will prepare food
+	10. Restaurant will change the status of the order to ready_for delivery
+	11. Delivery Service will deliver the food by choosing a delivery partner.
+	(To keep it simple let me assume there are sufficient delivery partners for pick up and will not take care of searching and assigning them the order)
+
+
+call delivery service.deliver order => no need of notification service
+
+We can have only one
